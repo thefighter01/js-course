@@ -1,0 +1,21 @@
+body {
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  /* the font-family got inherited to all childs of the element has this property , got inherited to elements which don't have this property, all properties related to fonts 
+  can be inherit */
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.first {
+  color: red;
+}
+
+#your-name {
+  background-color: red;
+  border: 5px solid green;
+  /* boder is not inherited  */
+}
