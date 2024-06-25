@@ -1,13 +1,43 @@
+/*
+* select all the elements
+// content of the box - padding -boder -margin
+
+margin is the space between two elements
+
+fill area is the padding and boder and width and content and height 
+
+
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*
+  box-sizing include padding for width and height we specify for an element
+  */
+}
+
 body {
   background-color: yellow;
   font-family: Arial, Helvetica, sans-serif;
   /* the font-family got inherited to all childs of the element has this property , got inherited to elements which don't have this property, all properties related to fonts 
   can be inherit */
   font-size: 20px;
+  padding: 75px;
+  /*
+  padding is the space before the content
+  */
 }
 
 h1 {
   font-size: 50px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 .first {
@@ -15,7 +45,34 @@ h1 {
 }
 
 #your-name {
-  background-color: red;
+  background-color: orange;
   border: 5px solid green;
   /* boder is not inherited  */
+  width: 400px;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+a {
+  background-color: green;
+}
+
+#your-name h2 {
+  /* this way of naming choose the element then the child of it */
+  color: olivedrab;
+}
+
+img {
+  width: 200px;
+  height: 150px;
 }
